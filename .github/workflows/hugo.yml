@@ -62,7 +62,7 @@ jobs:
           npm install --save-dev --save-exact hugo-extended@latest
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --destination ../docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
