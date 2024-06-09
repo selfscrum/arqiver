@@ -4,7 +4,7 @@ title: ArQiver
 
 {{< blocks/cover title="Welcome to ArQiver!" image_anchor="top" height="full" >}}
 <p class="lead mt-5" style="margin-top: 10px!important;"> Simplifying Content Management while Protecting Your Data</p>
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/arqiver/docs/">
   Read the Documentation <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 {{< /blocks/cover >}}

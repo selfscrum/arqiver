@@ -5,7 +5,7 @@ language: nl
 
 {{< blocks/cover title="Welkom bij ArQiver!" image_anchor="top" height="full" >}}
 <p class="lead mt-5" style="margin-top: 10px!important;">Contentbeheer vereenvoudigen en tegelijkertijd uw gegevens beschermen</p>
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/nl/docs/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/arqiver/nl/docs/">
   Lees de documentatie <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 {{< /blocks/cover >}}
