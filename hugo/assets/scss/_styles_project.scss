@@ -10,12 +10,21 @@
     display: none!important; 
 }
 
+/* Blog button color override */
+.td-content a.btn.btn-primary {
+    color: $blackfont!important;
+}
+
 /* link color override */
 
- .td-content a { 
+.td-content a:not(.btn.btn-primary) { 
      color: $primary!important; 
  } 
   
+ .td-blog-posts a:not(.btn.btn-primary) { 
+    color: $primary!important; 
+} 
+
  .breadcrumb-item a { 
      color: $primary!important; 
  } 
@@ -51,6 +60,10 @@
  .td-navbar a, input, button, ::before  {
      color:$blackfont!important; 
  }
+
+ .td-search__input.form-control:focus  {
+    color:$primary!important; 
+}
 
  button[aria-pressed="false"] {
     color: $primary!important;
