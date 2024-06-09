@@ -58,6 +58,8 @@ jobs:
           HUGO_ENV: production
         run: |
           cd hugo
+          npm install --save-dev autoprefixer@latest postcss-cli@latest
+          npm install --save-dev --save-exact hugo-extended@latest
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
